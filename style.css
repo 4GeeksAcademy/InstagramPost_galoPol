@@ -1,0 +1,88 @@
+/* Fondo negro para simular el fondo de Instagram */
+body {
+  background: #000;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal del post */
+.ig-post {
+  max-width: 420px;
+  margin: 40px auto; /* Centrado */
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.24); /* Sombra para dar profundidad */
+}
+
+/* Cabecera: logo, usuario y menú */
+.ig-header {
+  display: flex; /* Elementos en línea */
+  justify-content: space-between; /* Espacio entre logo+usuario y menú */
+  align-items: center;
+  padding: 17px 16px 11px 16px;
+}
+
+/* Información de la cabecera (logo y usuario) */
+.ig-header-info {
+  display: flex;
+  flex-direction: column; /* Logo arriba, usuario abajo */
+  gap: 1px;
+}
+
+/* Logo y nombre (en línea) */
+.ig-header-logo {
+  font-size: 1.3em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Logo SVG (si se usa SVG) */
+
+
+/* Nombre de usuario debajo del logo */
+.ig-header-user {
+  font-size: 0.92em;
+  font-weight: bold;
+  color: #444;
+  margin-top: 2px;
+}
+
+/* Menú de opciones (tres puntos) */
+.ig-header-menu {
+  font-size: 1.9em;
+  color: #444;
+  cursor: pointer;
+}
+
+/* Imagen principal del post */
+.ig-img {
+  width: 100%;
+  height: 266px;
+  object-fit: cover; /* Recorta la imagen sin deformar */
+  display: block;
+  background: #222;
+}
+
+/* Acciones (iconos de like, comentario, compartir, guardar) */
+.ig-actions {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  padding: 17px 16px 0 16px;
+  font-size: 2em;
+}
+
+/* El último icono (guardar) a la derecha */
+.ig-actions-right {
+  margin-left: auto;
+}
+
+.ig-caption {
+      padding: 4px 10px 10px 10px;
+      font-size: 0.98em;
+      color: #111;
+    
+    }
